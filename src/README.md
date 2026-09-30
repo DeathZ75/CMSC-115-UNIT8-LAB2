@@ -27,16 +27,16 @@ Commit message:
 ## Iteration 2
 
 What changed:
--
+- It changed the initial value for the results variable to be the first integer in the array.
 
 What improved:
--
+- It allowed the code to consider negative numbers and only the numbers found in the array.
 
 What still failed and why:
--
+- The testEmptyArray still failed since the code didn't have a means to detect if the array was empty causing an error.
 
 Commit message:
--
+- Iteration 2: largest value implementation
 
 ---
 

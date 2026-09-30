@@ -1,4 +1,4 @@
-public class NumberProgram { //Initial template
+public class NumberProgram { //Iteration 2
 
     public static void main(String[] args) {
         int[] values = {3, 7, 2, 9, 4};
@@ -9,14 +9,14 @@ public class NumberProgram { //Initial template
     }
 
     public static int findResult(int[] values) {
-        int result = 0;
+        int max = values[0]; //Assigned first array value.
 
-        for (int value : values) {
-            if (value > result) {
-                result = value;
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] > max) {
+                max = values[i];
             }
         }
 
-        return result;
+        return max;
     }
 }
