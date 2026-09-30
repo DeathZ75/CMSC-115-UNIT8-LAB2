@@ -9,6 +9,14 @@ public class NumberProgram { //Initial template
     }
 
     public static int findResult(int[] values) {
-        return 0;
+        int result = 0;
+
+        for (int value : values) {
+            if (value > result) {
+                result = value;
+            }
+        }
+
+        return result;
     }
 }

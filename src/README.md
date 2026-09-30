@@ -1,24 +1,26 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+STEPHEN EPPERLY
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+https://github.com/DeathZ75/CMSC-115-UNIT8-LAB2
 
 ## Iteration 1
 
 What the AI code does:
--
+- It loops through the array to find the largest value.
+- It started at zero and assigned a new value if a higher value was detected. 
 
 Tests passed/failed:
--
+- 2 passed and 2 failed. 
+- The testNegativeNumbers and testEmptyArray test failed.
 
 What surprised you:
--
+- I am not surprised since it had limited instructions and is a first attempt with little to no testing.
 
 Commit message:
--
+- Iteration 1: AI-generated implementation
 
 ---
 
