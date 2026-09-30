@@ -1,4 +1,4 @@
-public class NumberProgram { //Iteration 2
+public class NumberProgram { //Iteration 3
 
     public static void main(String[] args) {
         int[] values = {3, 7, 2, 9, 4};
@@ -9,7 +9,11 @@ public class NumberProgram { //Iteration 2
     }
 
     public static int findResult(int[] values) {
-        int max = values[0]; //Assigned first array value.
+        if (values.length == 0) { //Test for empty arrays
+            return Integer.MIN_VALUE;
+        }
+
+        int max = values[0]; //Assigns first value from array.
 
         for (int i = 1; i < values.length; i++) {
             if (values[i] > max) {

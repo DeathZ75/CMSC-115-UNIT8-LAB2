@@ -43,16 +43,17 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- The code fully finds and returns the largest integer value and even considers empty arrays as an input.
 
 What was fixed:
--
+- The code checks the array to determine if it is empty before proceeding to assign the first index to a variable.
 
 What you learned:
--
+- That AI can only do so much and needs the correct information to build the code as you desire it.
+- However, it can still make mistakes and keep making ones even when a problem is identified.
 
 Commit message:
--
+-Iteration 3: final version passing all tests
 
 ---
 
