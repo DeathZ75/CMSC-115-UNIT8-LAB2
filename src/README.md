@@ -60,5 +60,14 @@ Commit message:
 ## Final Reflection
 
 - How did AI responses change across prompts?
+- Mine provided me exactly what I asked for without considering what improvements maybe needed.
+- As I asked for more it even made suggestions after providing the fix on ways to improve the code.
+- But, it only provided me what I asked it too.
+
 - How did testing affect your changes?
+- It exposed where there were failures in my code and what areas to consider.
+- It allowed me to improve the code to ensure my desired outcome was possible with possibilities I may not have considered.
+
 - What did version control help you understand?
+- How small changes affected the code and allows me to go back and reflect on previous designs compared to finished products.
+- Such as how the code got longer when you consider including negative numbers and empty arrays.
